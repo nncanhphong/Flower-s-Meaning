@@ -1,0 +1,229 @@
+body
+{
+        font-family:Tahoma, Geneva, sans-serif;
+        font-size:13px;
+        /* margin-left: 10px; */
+        overflow: scroll;
+    }
+/* Thanh menu */
+#mainmenu
+    {
+        /* width:100%; */
+        overflow-y: hidden;
+        overflow-x:hidden;
+        margin-left: 30px;
+    }
+#mainmenu ul
+    {
+        padding:0px;
+        margin:0px;
+        font-size:14px;
+        /* position:absolute; */
+        width: 100%;
+        /* overflow: hidden; */
+        position: fixed !important;
+        /* position: relative; */
+        top: 70px;
+        z-index: 2;
+    }
+#mainmenu li
+    {
+        float:left;
+        width:300px;
+        list-style:none;
+        padding:5px 0px;
+        text-align:center;
+        background-color: whitesmoke;
+        cursor:pointer;
+        color: black;
+        /* font-weight:bold; */
+        overflow:hidden;
+        height:30px;
+    }
+#mainmenu li:hover
+    {
+        background-color:plum;
+        color:black;
+        height:auto;
+    }
+    #submenufirst
+    {
+        border-top-left-radius:10px;
+    }
+    #submenulast{
+        border-top-right-radius:10px;
+    }
+    .submenuitem{
+        margin-bottom:-7px;
+    }
+    #mainmenu li div{
+    padding:2px 0px;
+    }
+    /*Setting thanh keo xuong*/
+    #mainmenu li div div{
+    background-color: whitesmoke;
+    color:yellow;
+    text-align:justify;
+    padding-left:5px;
+    }
+    /*Setting thanh chon*/
+    #mainmenu li div div:hover{
+    background-color: violet;
+    }
+    #mainmenu a:visited, #mainmenu a:link, #mainmenu a:hover{
+    color:black;
+    text-decoration:none;
+    }
+
+/* Nội dung */
+#link1:hover, #link2:hover, #link3:hover, #link4:hover, #link5:hover, #link6:hover, #link7:hover, #link8:hover, #link9:hover, #link10:hover, #link11:hover, #link12:hover
+{
+    background-color: plum;
+    transition: all 0.4s ease-in;
+}
+#mainBoard table tr td
+{
+    border: 2px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    font-size: 12px;
+}
+#mainBoard table tr td button
+{
+    border-style: none;
+    background-color: white;
+    font-size: medium;
+}  
+#mainContent
+{
+    /* margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px; */
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    /* text-align: center; */
+    -webkit-text-size-adjust: 100%;
+}
+#mainContent h1
+{
+    margin-left: 200px;
+}
+
+#mainQues
+{
+    width: 100%;
+    font-size: medium;
+    margin-left: 150px;
+    /* margin-right: 150px; */
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
+}
+#mainQues table
+{
+    width: 900px;
+    /* overflow-x: hidden; */
+    margin-left: 10px !important;
+    border-collapse: separate;
+}
+#mainQues table tr th
+{
+    text-align: center;
+    font-size: 30px !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: palevioletred;
+}
+#mainBoard table tr td a
+{
+    text-decoration: none !important; 
+    color: red;
+}
+#mainBoard table tr th
+{
+    text-align: center;
+}
+#mainBoard table, tr 
+{
+    margin: 50px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    border-spacing: 30px;
+}
+#mainBoard table
+{
+    width: 700px auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* Thanh tương tác */
+
+#logo
+{
+    float: left;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    /* background-color: plum; */
+}
+#logos
+{
+    margin-left: 50px;
+    float: left;
+}
+/* #icon1, #icon2, #account
+{
+    float: right !important;
+    margin-top: 20px;
+    margin-right: 40px;
+} */
+#icon1
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 380px;
+}
+#icon2
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+/* #Guess
+{
+    float: left;
+    margin-left: -410px;
+} */
+#account
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 1000px;
+    position: fixed;
+    cursor: pointer;
+}
+
+/* #Ami
+{
+    /* display: none; */
+    /* display: block;
+    position: fixed;
+} */
+.container
+{
+    float: left;
+    margin-left: 40px;
+}
+#mainBoard table tr td a:hover
+{
+    background-color: plum;
+    transition: all 0.4s ease-in;
+    /* border-radius: 120%; */
+}
+#mainBoard table tr td a
+{
+    text-align: center;
+    /* border-radius: 120%; */
+}

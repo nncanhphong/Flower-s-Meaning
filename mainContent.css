@@ -1,0 +1,187 @@
+/* Thanh main */
+body
+{
+        font-family:Tahoma, Geneva, sans-serif;
+        font-size:13px;
+        /* margin-left: 10px; */
+        overflow: scroll;
+    }
+/* Thanh menu */
+#mainmenu
+    {
+        /* width:100%; */
+        overflow-y: hidden;
+        overflow-x:hidden;
+    }
+#mainmenu ul
+    {
+        padding:0px;
+        margin:0px;
+        font-size:14px;
+        /* position:absolute; */
+
+        width: 100%;
+        /* overflow: hidden; */
+        position: fixed !important;
+        /* position: relative; */
+        top: 70;
+        z-index: 2;
+    }
+#mainmenu li
+    {
+        float:left;
+        width:300px;
+        list-style:none;
+        padding:5px 0px;
+        text-align:center;
+        background-color: whitesmoke;
+        cursor:pointer;
+        color: black;
+        /* font-weight:bold; */
+        overflow:hidden;
+        height:30px;
+    }
+#mainmenu li:hover
+    {
+        background-color:plum;
+        color:black;
+        height:auto;
+    }
+    #submenufirst
+    {
+        border-top-left-radius:10px;
+    }
+    #submenulast{
+        border-top-right-radius:10px;
+    }
+    .submenuitem{
+        margin-bottom:-7px;
+    }
+    #mainmenu li div{
+    padding:2px 0px;
+    }
+    /*Setting thanh keo xuong*/
+    #mainmenu li div div{
+    background-color: whitesmoke;
+    color:yellow;
+    text-align:justify;
+    padding-left:5px;
+    }
+    /*Setting thanh chon*/
+    #mainmenu li div div:hover{
+    background-color: violet;
+    }
+    #mainmenu a:visited, #mainmenu a:link, #mainmenu a:hover{
+    color:black;
+    text-decoration:none;
+    }
+
+/* Thanh navi */
+
+/* #logo
+{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    background-color: plum;
+}
+#logos
+{
+    margin-left: 25px;
+    float: left;
+}
+#icon1, #icon2, #account
+{
+    float: right !important;
+    margin: 30px;
+} */
+
+#logo
+{
+    float: left;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    /* background-color: plum; */
+}
+#logos
+{
+    margin-left: 50px;
+    float: left;
+}
+/* #icon1, #icon2, #account
+{
+    float: right !important;
+    margin-top: 20px;
+    margin-right: 40px;
+} */
+#icon1
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 380px;
+}
+#icon2
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+/* #Guess
+{
+    float: left;
+    margin-left: -410px;
+} */
+#account
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 1000px;
+    position: fixed;
+}
+
+/* Nội dung */
+#no0
+{
+    margin-top: 200px;
+    margin-left: 530px;
+}
+#No1
+{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    
+}
+#No2
+{
+    width: 100% auto;
+    font-size: medium;
+    margin-left: 280px;
+    margin-right: 250px;
+    max-width: fit-content;
+    overflow: hidden;
+}
+#trust
+{
+    text-align: left;
+    font-size: small;
+}
+#No2 table
+{
+    width: 700px;
+    margin-right: 150px;
+    text-align: left;
+    border-spacing: 15px;
+    border-collapse: separate;
+    border: 10px;
+}
+
+.container
+{
+    float: left;
+    margin-left: 40px;
+}
